@@ -28,7 +28,7 @@ Make sure your contract deployment wallet has ether on Rinkeby, then deploy like
   yarn hardhat run --network rinkeby scripts/deploy.ts
 ```
 
-Optionally, verify on Etherscan with the following (but hey, why not, you've come this far):
+Optionally, verify on Etherscan with the following (and hey, why not, you've come this far):
 
 ```
   yarn hardhat verify --network rinkeby $CONTRACT_ADDRESS --constructor-args scripts/arguments.ts

@@ -5,7 +5,9 @@ import "@nomiclabs/hardhat-waffle";
 import "@typechain/hardhat";
 import "hardhat-erc1820";
 
-dotenvConfig({ path: `${process.cwd()}/.env` });
+dotenvConfig({
+  path: `${process.cwd()}/.env`
+});
 
 const config: HardhatUserConfig = {
   solidity: {
@@ -16,7 +18,7 @@ const config: HardhatUserConfig = {
       },
       optimizer: {
         enabled: true,
-        runs: 420
+        runs: 200
       }
     }
   },
