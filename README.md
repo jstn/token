@@ -1,4 +1,4 @@
-# Token
+# ERC-20 Token
 
 ## Be president of your own railroad.
 
@@ -38,7 +38,7 @@ Mainnet is just an ocean of gas away.
 
 ### Step 4
 
-Read the docs for the [OpenZeppelin Contracts](https://docs.openzeppelin.com/contracts/4.x/) whence this code was wrought.
+Read the docs for the [OpenZeppelin Contracts](https://docs.openzeppelin.com/contracts/4.x/), whence this code was wrought.
 
 ### Step 5
 
